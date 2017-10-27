@@ -58,7 +58,7 @@ public class Servicio extends HttpServlet {
         } catch (Exception ex){
             System.out.println(ex.getLocalizedMessage());
         }
-        resp.sendRedirect("index.jsp");
+        resp.sendRedirect("./index.jsp");
    
     }
     
